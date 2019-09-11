@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".StartFragmentForDoctorSubject">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/image1"
+            android:src="@drawable/mariam2"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle"
+            android:text="Attendance"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_below="@id/image1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+
+           />
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle"
+            android:text="Assignments"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_below="@id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
